@@ -1,0 +1,15 @@
+{
+  "name": "kindproxy-puppeteer-proxy-rotation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rotate": "node scripts/rotating-session.js",
+    "sticky": "node scripts/sticky-session.js",
+    "retry": "node scripts/retry-handler.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.10.2"
+  }
+}
